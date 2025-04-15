@@ -9,7 +9,7 @@
 
 #include <Arduino.h>
 #include <IPS2550_WebApp.h>
-#include <IPS2550_WebApp_cfg.h>
+#include <IPS2550_WebApp_Cfg.h>
 
 #if ESP32_SERIAL
 #include <IPS2550_WebApp_Serial.h>
