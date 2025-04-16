@@ -29,16 +29,16 @@
 // System Settings
 //==============================================================================
 
-#define ESP32_CFG_SETUP_DELAY        (15000U)   // Delay before setup() starts (in ms)
+#define ESP32_CFG_SETUP_DELAY        (10000U)   // Delay before setup() starts (in ms)
 #define ESP32_CFG_SERIAL_BAUDRATE    (115200U)  // Baudrate for Serial.begin()
 
 //==============================================================================
 // GPIO Configuration for Rotary Encoder (IPS2550)
 //==============================================================================
 
-#define ESP32_CFG_PORT_GPIO_COS      (4U)       // GPIO pin for COS signal input
+#define ESP32_CFG_PORT_GPIO_COS      (32U)      // GPIO pin for COS signal input
 #define ESP32_CFG_PORT_GPIO_COSN     ()         // Not assigned or unused
-#define ESP32_CFG_PORT_GPIO_SIN      (5U)       // GPIO pin for SIN signal input
+#define ESP32_CFG_PORT_GPIO_SIN      (33U)      // GPIO pin for SIN signal input
 #define ESP32_CFG_PORT_GPIO_SINN     ()         // Not assigned or unused
 
 #endif // IPS2550_WEBAPP_CFG_H
